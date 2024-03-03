@@ -41,5 +41,6 @@ pip install pyttsx3 speechrecognition wikipedia pyautogui openai
 ## Obtain necessary API keys:
 
 - OpenAI GPT-3 API key
-- Spotify API key (if required for music playback)
+- Spotify API key (if required for music playback
+<br>
 Update the API keys in the code.
