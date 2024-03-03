@@ -1,6 +1,6 @@
 # Friday Virtual Assistant
 
-Friday Virtual Assistant is a Python-based AI assistant capable of performing various tasks such as answering questions, managing applications, searching the web, and more.
+Friday is a virtual assistant designed to assist users with various tasks, such as managing schedules, providing information, and performing actions based on user commands.
 
 ## Features
 
@@ -11,31 +11,28 @@ Friday Virtual Assistant is a Python-based AI assistant capable of performing va
 - **Task Automation**: Can perform tasks like closing windows and searching YouTube or Google.
 - **OpenAI GPT-3.5 Integration**: Employs OpenAI's GPT-3.5 model for natural language processing and conversation generation.
 
-## Installation
+## Usage
 
+1. Run the `main.py` file to start the virtual assistant.
+2. Speak commands to interact with the assistant, such as:
+   - "Open YouTube"
+   - "What's the time?"
+   - "Search for information about Artificial Intelligence on Wikipedia"
+   - "Play music on Spotify"
+   - "Close the window"
+3. Enjoy the functionalities provided by the Friday Virtual Assistant!
+
+## Credits
+
+- Built by Kunal Dhanawade
+- Developed using Python, utilizing various libraries and APIs.
+- OpenAI GPT-3.5 model used for conversation generation.
+
+## Installation
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/kunaldhanawade02/Virtual-Assistant.git
-Install the required dependencies:
+git clone https://github.com/your_kunaldhanawade02/Virtual-Assistant.git
 ```bash
 pip install pyttsx3 speechrecognition wikipedia pyautogui openai
 
-## 1.Obtain necessary API keys:
-  >OpenAI GPT-3 API key
-  >Spotify API key (if required for music playback)
-2.Update the API keys in the code.
-
-**Usage**
-1.Run the main.py file to start the virtual assistant.
-2.Speak commands to interact with the assistant, such as:
-  "Open YouTube"
-  "What's the time?"
-  "Search for information about Artificial Intelligence on Wikipedia"
-  "Play music on Spotify"
-  "Close the window"
-3.Enjoy the functionalities provided by the Friday Virtual Assistant!
-**Credits**
-  Built by Kunal Dhanawde
-  Developed using Python, utilizing various libraries and APIs.
-  OpenAI GPT-3.5 model used for conversation generation.
