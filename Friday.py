@@ -48,19 +48,6 @@ def wishMe():
 
     speak("I am Friday sir, please tell me how may I help you?")  
 
-# def get_google_search_result(query):
-#     try:
-#         for j in search(query, num=1, stop=1, pause=2):
-#             response = requests.get(j)
-#             soup = BeautifulSoup(response.text, 'html.parser')
-#             result_text = ""
-#             paragraphs = soup.find_all('p')
-#             for paragraph in paragraphs[:3]:
-#                 result_text += paragraph.text
-#             return result_text
-#     except requests.exceptions.ConnectionError:
-#         return "Sorry, I couldn't retrieve the search results due to a connection issue. Please check your internet connection and try again later."
-
 
 def takeCommand():
     # it takes microphone input from user and returns string output
@@ -171,19 +158,6 @@ if __name__=="__main__":
             pyautogui.press('d')
             pyautogui.keyUp('win')
 
-
-        # else:
-        #     google_result = get_google_search_result(query)
-        #     print(google_result)
-        #     speak("Here are the search results:")
-        #     speak(google_result)      
-            
-        # else:
-        #     speak("Let me search that for you")
-        #     # query=query.replace("wikipedia","")
-        #     results=wikipedia.summary(query,sentences=6)
-        #     print(results)
-        #     speak(results)
         
         else:
             query=query.replace("Friday","")
