@@ -26,7 +26,7 @@ Friday is a virtual assistant designed to assist users with various tasks, such 
 
 - Built by Kunal Dhanawade
 - Developed using Python, utilizing various libraries and APIs.
-- OpenAI GPT-3.5 model used for conversation generation.
+- OpenAI GPT-3.5 model used for conversation generatio
 
 ## Installation
 1. Clone the repository to your local machine:
@@ -34,6 +34,12 @@ Friday is a virtual assistant designed to assist users with various tasks, such 
 ```bash
 git clone https://github.com/your_kunaldhanawade02/Virtual-Assistant.git
 ```
+2. Install the required dependencies using pip:
 ```bash
 pip install pyttsx3 speechrecognition wikipedia pyautogui openai
 ```
+## Obtain necessary API keys:
+
+   -OpenAI GPT-3 API key
+   -Spotify API key (if required for music playback)
+   Update the API keys in the code.
