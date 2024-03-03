@@ -18,8 +18,10 @@ Friday Virtual Assistant is a Python-based AI assistant capable of performing va
 ```bash
 git clone https://github.com/kunaldhanawade02/Virtual-Assistant.git
 Install the required dependencies:
+```bash
 pip install pyttsx3 speechrecognition wikipedia pyautogui openai
-1.Obtain necessary API keys:
+
+## 1.Obtain necessary API keys:
   >OpenAI GPT-3 API key
   >Spotify API key (if required for music playback)
 2.Update the API keys in the code.
