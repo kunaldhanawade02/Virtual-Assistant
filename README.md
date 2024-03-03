@@ -33,6 +33,6 @@ Friday is a virtual assistant designed to assist users with various tasks, such 
 
 ```bash
 git clone https://github.com/your_kunaldhanawade02/Virtual-Assistant.git
-```bash
+
 pip install pyttsx3 speechrecognition wikipedia pyautogui openai
 
