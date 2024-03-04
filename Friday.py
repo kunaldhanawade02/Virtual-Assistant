@@ -28,7 +28,7 @@ def calculate_math_expression(expression):
     except Exception as e:
         return "Sorry, I couldn't perform the calculation. Please try again."
 
-openai.api_key = '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'
+openai.api_key = 'Your_openai_Api_key'
 
 
 
