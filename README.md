@@ -13,7 +13,7 @@ Friday is a virtual assistant designed to assist users with various tasks, such 
 
 ## Usage
 
-1. Run the `main.py` file to start the virtual assistant.
+1. Run the `friday.py` file to start the virtual assistant.
 2. Speak commands to interact with the assistant, such as:
    - "Open YouTube"
    - "What's the time?"
