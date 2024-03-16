@@ -157,6 +157,12 @@ if __name__=="__main__":
             pyautogui.keyDown('win')
             pyautogui.press('d')
             pyautogui.keyUp('win')
+        
+        elif 'minimize' in query:
+            speak("minimize the window")
+            pyautogui.keyDown('win')
+            pyautogui.press('d')
+            pyautogui.keyUp('win')
 
         
         else:
