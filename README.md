@@ -30,7 +30,6 @@ Friday is a virtual assistant designed to assist users with various tasks, such 
 
 ## Installation
 1. Clone the repository to your local machine:
-
 ```bash
 git clone https://github.com/your_kunaldhanawade02/Virtual-Assistant.git
 ```
