@@ -161,7 +161,7 @@ if __name__=="__main__":
 
         
         else:
-            genai.configure(api_key="AIzaSyDe2gxDHhk0uVe2y2au8WOypabnZi-yvfQ")
+            genai.configure(api_key="YOUR_API_KEY")
             model = genai.GenerativeModel("gemini-1.5-flash")
             response = model.generate_content(query)
             print(response.text)
