@@ -8,9 +8,7 @@ import time
 import pyautogui
 import os
 from googlesearch import search
-import requests
-from bs4 import BeautifulSoup
-import openai
+import google.generativeai as genai
 
 
 engine=pyttsx3.init('sapi5')
@@ -27,9 +25,6 @@ def calculate_math_expression(expression):
         return result
     except Exception as e:
         return "Sorry, I couldn't perform the calculation. Please try again."
-
-openai.api_key = 'Your_openai_Api_key'
-
 
 
 def open_spotify_and_play_music():
@@ -166,7 +161,8 @@ if __name__=="__main__":
 
         
         else:
-            query=query.replace("Friday","")
-            completion= openai.ChatCompletion.create(model="gpt-3.5-turbo",messages=[{"role":"user","content":f"{query}"}])
-            print(completion.choices[0].message.content)
-            speak(completion.choices[0].message.content)
+            genai.configure(api_key="AIzaSyDe2gxDHhk0uVe2y2au8WOypabnZi-yvfQ")
+            model = genai.GenerativeModel("gemini-1.5-flash")
+            response = model.generate_content(query)
+            print(response.text)
+            speak(response.text)
